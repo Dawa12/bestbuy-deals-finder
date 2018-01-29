@@ -1,0 +1,113 @@
+html,
+body {
+/*   max-width: 100%; */
+/*   overflow-x: hidden; */  
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  text-align: center;
+  background: #003b64;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search > div {
+/*   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+}
+
+div.landing {
+  border: 3px solid black;
+  box-sizing: border-box;
+  border-radius: 21px;
+  padding: 15px;
+  font-size: 1.4em;
+  height: 250px;
+  width: 250px;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:hover {
+/*   font-size: 1.5em; */
+/*   font-weight: bold; */
+  text-decoration: underline;
+}
+
+form {
+  font-size: 1.8em;
+  margin: 5px;
+}
+
+form * {
+  margin: 7px
+}
+
+form input {
+  height: 2.5em;
+  font-size: .70em;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5%;
+  text-align: center;
+}
+
+form label {
+  color: black
+}
+
+/* form.header label {
+  margin: 11px;
+
+} */
+
+.product {
+  border: 2px solid black;
+/*   height: 300px; */
+  width: 100%;
+  background: white;
+  padding: 20px 20px 50px 20px;
+  box-sizing: border-box;
+/*   display: flex; */
+/*   align-items: center; */
+/*   justify-content: center; */
+/*   height */
+}
+
+.product-text {
+  float: right;
+  width: 40%;
+  text-align: left;
+  line-height: 1.5em;
+/*   height: 100% */
+}
+
+.product-image {
+/*   float: left;     */
+/*   height: 40%; */
+  height: 20%;
+/*   height: 100px; */
+  width: 20%;
+
+
+}
+
+.product p {
+/*   text-decoration: inherit; */
+/*   color: inherit; */
+  color: black;
+}
+
+.product p:hover{
+  color: black;
+  text-decoration: underline;
+}

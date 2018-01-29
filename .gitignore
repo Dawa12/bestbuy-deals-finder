@@ -1,0 +1,34 @@
+### Dot files ###
+.*
+
+### Git ###
+!/.gitignore
+!/.gitmodules
+
+### NPM modules ###
+node_modules
+
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Compiled files
+public/css/*bootstrap.css
+public/js/*
